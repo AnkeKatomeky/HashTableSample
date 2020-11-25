@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomHashTable.cs" />
-    <Compile Include="CustomKeyObject.cs" />
-    <Compile Include="ICustomHashObject.cs" />
-    <Compile Include="ICustomHashTable.cs" />
+    <Compile Include="NodeHashTable.cs" />
+    <Compile Include="ChainHashTable\CustomHashTable.cs" />
+    <Compile Include="ChainHashTable\CustomKeyObject.cs" />
+    <Compile Include="ChainHashTable\ICustomHashObject.cs" />
+    <Compile Include="ChainHashTable\ICustomHashTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
